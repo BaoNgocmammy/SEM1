@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/jquery/Pedro.js"></script>
+
+</head>
+<body>
+    <div class=" app__container">
+        <header></header>
+        <div class="container__main container">
+            <div class="CurrentPosition">
+                <a href="#" class ="CurrentPosition__Home"> Home </a>
+                <span class="CurrentPosition-separate"></span>
+                <span class="CurrentPosition__Page">Pedro</span>
+            </div>
+            <div class="container-first-row">
+                <div class="container-first-row brand__banner">
+                    <div class="brand__banner-img"><img src="./asset/img/banner-1940.jpg" alt="banner">
+                        
+                    </div>
+                </div>
+            </div>    
+            <div class="container-second-row row">
+                <div class="category__filter__content col-md-3 ">
+                    <div class="category__filter__box"> 
+                        <h4 class="category__filter__heading">Collection</h4>
+                        <ul class="category__filter-list">
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="Men's-Collention" name="category-collection" value="Men's Collention">
+                                <label for="Men's-Collention">Men's Collention</label><br>
+                            </li>
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="Women's-Collection" name="category-collection" value="Women's Collention">
+                                <label for="Women's-Collention">Women's Collention</label><br>
+                            </li>
+                        </ul>
+                        </h4>   
+                    </div>
+                    <div class="category__filter__box"> 
+                        <h4 class="category__filter__heading">Category</h4>
+                        <ul class="category__filter-list">
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="Backpacks" name="categoty-list" value="Backpacks">
+                                <label for="Backpacks">Backpacks</label><br>
+                            </li>
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="SlingPouch" name="categoty-list" value="Sling Pouch">
+                                <label for="SlingPouch">Sling Pouch</label><br>
+                            </li>
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="Tote" name="categoty-list" value="Tote">
+                                <label for="Tote">Tote</label><br>
+                            </li>
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="ShoulderBags" name="categoty-list" value="Shoulder Bags">
+                                <label for="ShoulderBags">Shoulder Bags</label><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="category__filter__box"> 
+                        <h4 class="category__filter__heading">Price</h4>
+                        <ul class="category__filter-list">
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="under500$>" name="categoty__filter-list" value="under500$">
+                                <label for="under500$">&lt;500&dollar;</label><br>
+                            </li>
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="500$-1000$>" name="categoty__filter-list" value="500$-1000$">
+                                <label for="500$-1000$">500&dollar; to 1000&dollar;</label><br>
+                            </li>
+                            <li class="category__filter-item">
+                                <input type="checkbox" id="above1000$>" name="categoty__filter-list" value="above1000$">
+                                <label for="above1000$">1000&dollar; and above</label><br>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="category__content__products col-md-9 col-sm-12 ">
+                    <div class="brand__banner-logo">Pedro</div>
+                    <div class="category__content__products-FilterSortBy">
+                        <div class="category__content__products-SortBy">
+                            <div class="select-input">
+                                    <div class="select-input-dropdown">
+                                        <label for="select-input-Sort-By">Sort By:</label>
+                                        <select class="select-input-Sort-By" name="select-input-Sort-By" id="select-input-Sort-By">
+                                            <option value="NewArrivals">New Arrivals</option>
+                                            <option value="BestSeller">Best Sellers</option>
+                                        </select>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- fiter-bar -->
+                        
+                        <div class="category__content__product-Filter-bar "> 
+                            <div class="btn__filter btn-default">
+                                <div class="btn__filter-button ">
+                                    <span class="btn__filter-title">Filter</span>
+                                    <i class="btn__filter-icon fas fa-filter"></i>
+                                </div>    
+                                <div class="category__filter-bar__sub-heading">
+                                    <ul class="filter-bar-heading ">
+                                        <li>
+                                            <div class="filter-bar-heading-wrapper">
+                                                <span class="category__filter-bar__heading">Collection</span>
+                                                <i class="filter-bar__heading-icon fas fa-angle-double-right"></i>
+                                            </div>
+                                            <div class="category__filter-bar-list">
+                                                <ul>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="Men's-Collention" name="category-collection" value="Men's Collention">
+                                                        <label for="Men's-Collention">Men's Collention</label>
+                                                    </li>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="Women's-Collection" name="category-collection" value="Women's Collention">
+                                                        <label for="Women's-Collention">Women's Collention</label>
+                                                    </li>
+                                                </ul>
+                                            </div>  
+                                        </li>
+                                        <li>
+                                            <div class="filter-bar-heading-wrapper">
+                                                <span class="category__filter-bar__heading">Category
+                                                </span>
+                                                <i class="filter-bar__heading-icon fas fa-angle-double-right"></i>
+                                            </div>
+                                            <div class="category__filter-bar-list">
+                                                <ul>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="Backpacks" name="categoty-list" value="Backpacks">
+                                                        <label for="Backpacks">Backpacks</label><br>
+                                                    </li>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="SlingPouch" name="categoty-list" value="Sling Pouch">
+                                                        <label for="SlingPouch">Sling Pouch</label><br>
+                                                    </li>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="Tote" name="categoty-list" value="Tote">
+                                                        <label for="Tote">Tote</label><br>
+                                                    </li>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="ShoulderBags" name="categoty-list" value="Shoulder Bags">
+                                                        <label for="ShoulderBags">Shoulder Bags</label><br>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="filter-bar-heading-wrapper">
+                                                <span class="category__filter-bar__heading">Price
+                                                </span>
+                                                <i class="filter-bar__heading-icon fas fa-angle-double-right"></i>
+                                            </div>
+                                            <div class="category__filter-bar-list">
+                                                <ul>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="under500$>" name="categoty__filter-bar-list" value="under500$">
+                                                        <label for="under500$">&lt;500&dollar;</label><br>
+                                                    </li>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="500$-1000$>" name="categoty__filter-bar-list" value="500$-1000$">
+                                                        <label for="500$-1000$">500&dollar; to 1000&dollar;</label><br>
+                                                    </li>
+                                                    <li class="category__filter-bar-item">
+                                                        <input type="checkbox" id="above1000$>" name="categoty__filter-bar-list" value="above1000$">
+                                                        <label for="above1000$">1000&dollar; and above</label><br>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="container__main_product">
+                        <div class="container__main_product-row row">
+                            <a href="#" class="product__item__box col-md-4 col-sm-6">
+                                <div class="product__item__box__img"> <img src="/asset/img/2021-L7-CK2-10270781-02-1.jpg" alt=""> </div>
+                                <h4 class="product__item__box__name">Faux Fur Nylon Backpack - Black</h4>
+                                <div class="product__item__box__price">$1600</div>
+                            </a>
+                            <a href="#" class="product__item__box col-md-4 col-sm-6">
+                                <div class="product__item__box__img"> <img src="/asset/img/2021-L7-PM2-25210195-01-1.jpg" alt=""> </div>
+                                <h4 class="product__item__box__name">Faux Fur Nylon Backpack - Black</h4>
+                                <div class="product__item__box__price">$1600</div>
+                            </a>
+                            <a href="#" class="product__item__box col-md-4 col-sm-6">
+                                <div class="product__item__box__img"> <img src="/asset/img/2021-L7-CK2-20781657-B3-1.jpg" alt=""> </div>
+                                <h4 class="product__item__box__name">Faux Fur Nylon Backpack - Black</h4>
+                                <div class="product__item__box__price">$1600</div>
+                            </a>
+                        </div>
+                    </div>  
+                      
+                </div>
+                
+
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>

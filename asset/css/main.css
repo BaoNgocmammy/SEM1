@@ -45,9 +45,7 @@ html {
         color:var(--primary-color);
         cursor: pointer;
     }
-    .auth-form__form{
-        
-    }
+    
     .auth-form__input{
         width: 100%;
         height: 40px;
@@ -82,10 +80,11 @@ html {
     }
     .auth-form__controls-back{
         margin-right: 8px;
+        background-color: var(--border-color);
         color: var(--text-color);
     }
     .auth-form__socials{
-        background-color: #F5F5F5;
+        /* background-color: #F5F5F5; */
         padding: 16px 20px;
         display: flex;
         justify-content: space-between;
@@ -93,6 +92,7 @@ html {
     }
     .auth-form__socials-icon{
         font-size: 1.8rem;
+        padding-left: 20px;
     }
     .auth-form__socials--facebook{
         color: var(--white-color);
@@ -107,11 +107,229 @@ html {
     .auth-form__socials--google{
         color: #666;
         background-color: var(--border-color);
-        
-
+    }
+    .auth-form__socials--google img{
+        max-width: 18px;
+    }
+    
+    .auth-form__help {
+        display: flex;
+        justify-content: flex-end;
     }
     .auth-form__help-link{
         text-decoration: none;
         font-size: 1.4rem;
         color: var(--primary-color);
     }
+    .auth-form__help-separate{
+        display:block;
+        height: 2px 16px 0;
+        margin: 0 16px;
+        border-left: 1px solid #eaeaea;
+    }
+    .container__main{
+        font-size: 1.6rem;
+    }
+    .CurrentPosition__Home{
+        text-decoration: none;
+        color:var(--text-color);
+    }
+    .CurrentPosition__Home:hover{
+        text-decoration: none;
+        color:var(--text-color);
+    }
+    .CurrentPosition{
+        display: flex;
+        color: var(--text-color);
+    }
+    .CurrentPosition-separate{
+        display:block;
+        height: 2px 16px 0;
+        margin: 0 16px;
+        border-left: 1px solid #eaeaea;
+    }
+    .CurrentPosition__Page{
+        font-weight: 500;
+        color: var(--black-color);
+    }
+    .container-first-row.brand__banner img{
+        width: 100%;
+        height:auto;
+
+    }
+    .brand__banner-logo{
+        font-size: 6rem;
+        font-weight: 500;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        background: linear-gradient(90deg, #FCA311, rgb(204, 204, 255));
+        padding: 2rem 0; 
+    }
+    
+    .category__filter__box{
+        border: 1px solid var(--border-color);
+        width: 100%;
+        padding: 9px 0;
+        margin-bottom: 20px;
+    }
+
+    .category__filter__heading{
+        padding: 8px 16px 17px 9px ;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        font-weight: 700%;
+    }
+    .category__filter-list{
+        padding-left:0; 
+        list-style: none;
+        margin-left: 9px;
+        font-size: 1.5rem;
+    }
+    .select-input-Sort-By{
+        display: inline-block;
+        padding:0 1.5rem 0 0.5rem;
+        border: 1px solid var(--border-color);
+        min-width: 142px;
+        height: 34px;
+    }
+    /* Product item */
+    .container__main_product{
+        margin-bottom: 10px; 
+        margin-top: 10px;
+    }
+
+    .product__item__box{
+        display: block;
+        text-decoration: none;
+        color: var(--text-color);
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        box-shadow: 0 rgba(0, 0, 0, 0);
+        padding: 10px 0;
+        transition: transform ease-in 0.05s;
+        will-change: transform;
+    }
+    .product__item__box:hover{
+        transform: scale(1.01);
+        box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+        text-decoration: none;
+        color: var(--text-color);
+
+
+    }    
+    .product__item__box__img img{
+        width: 100%;
+        height: auto;
+    }
+    .product__item__box__name{
+        font-size: 1.5rem;
+        color: var(--text-color);
+        margin: 5px 0;
+        line-height:1.8rem;
+        max-height:3.6rem;
+        overflow: hidden;
+        display: block;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .product__item__box__price{
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    /* ẩn category filter */
+    @media (max-width: 768px) {
+        .brand__banner-logo {
+            font-size: 3.5rem;
+        }
+        .category__filter__box{
+            display:none;
+        }
+        .select-input-dropdown label{
+            display:none;
+
+        }
+        .select-input{
+            width: 125px;
+        }
+        .category__content__products-FilterSortBy{
+            margin-top: 10px;
+            display: flex;
+            justify-content:flex-end;
+            
+        }
+        .category__content__product-Filter-bar{
+            padding-left: 10px;
+            position: relative;
+            display: inline-block;
+        }
+        .btn__filter.btn-default{
+            width: 150px;
+            margin-left: 15px;
+            display: inline-block;
+            border: 1px solid var(--border-color);
+            background-color: var(--white-color);
+            padding: 10px;
+        }
+        .btn__filter-icon {
+           float: right;
+           width: 16px;
+           color: var(--text-color);
+        }
+        .btn__filter.btn-default:hover{
+            color: var(--text-color);
+        }
+        
+        .category__content__product-Filter-bar ul{
+            padding-left: 0;
+        }
+        .category__content__product-Filter-bar li{
+            list-style: none;
+        }
+        .category__filter-bar__sub-heading{
+            position: absolute;
+            display: none;
+            z-index:2;
+            background-color: var(--white-color);
+            margin-top: 10px;
+            margin-left: -10px;
+            width: 150px;
+        }
+        .category__filter-bar__sub-heading ul li{
+            width: 140px;
+            padding: 10px 5px 0;
+            text-align: left;
+
+        }
+        .filter-bar-heading-wrapper{    
+            border-bottom: 2px solid var(--text-color);
+            padding: 0px 5px 5px;
+        }    
+        
+        .filter-bar__heading-icon{
+            width: 12px;
+            float: right;
+        }
+        .category__filter-bar-list{
+            position: relative;
+            display: none;
+        }
+        .category__filter-bar-list ul li{
+            font-size: 1.3rem;
+            /* border-bottom: 2px dotted var(--border-color); */
+            width: 130px;
+        }
+        .category__filter-bar-list ul li:last-child{
+            border-bottom: none;
+        }
+        
+    }
+    @media (min-width: 768px) {   
+        .category__content__products-FilterSortBy{
+            margin-top: 10px;
+        }
+        .category__content__product-Filter-bar{
+            display: none;
+        }
+    }
+    

@@ -1,0 +1,29 @@
+/* sign up, log in, contact us */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #104A74;
+    --border-color: #dbdbdb;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+}
+.container__app__sign-up{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.container__app__sign-up__form.auth-form__heading{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}                        

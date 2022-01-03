@@ -1,0 +1,113 @@
+footer{
+    margin-top: 30px;
+    background-image:url(/asset/img/footer-background.jpg);
+    font-size: 1.5rem;
+  }
+  .footer-left{
+    display: flex;
+  }
+  .container-fluid .col-sm-6 .service{
+    flex-wrap: wrap; 
+  }
+  .container-fluid .footer-left{
+    display: flex;
+  }
+
+  .container-fluid .footer-right .col-sm-3{
+    padding-right: 0;
+  }
+  .container-fluid .footer-right img{
+    margin:30px 0 50px 0;
+  }
+  .container-fluid .footer-right .container-fluid a{
+    padding-right: 10px;
+  }
+  .container-fluid .footer-right{
+    text-align: center;
+  }
+  footer .container-fluid a{
+    color: rgb(0, 0, 0);
+  }
+  footer .row{
+    padding-top: 300px;
+    margin: 0;
+  }
+  footer .col-sm-6{
+    padding: 0;
+  }
+  @media screen and (max-width: 990px) and (min-width:780px){
+    footer h3{
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 780px) and (min-width:575px){
+    footer h3{
+      font-size: 17px;
+    }
+    footer a{
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 635px) {
+    .icon1{
+      
+      margin-left: 10px;
+    }
+    .nav-item .nav-link button{
+      margin-right: 10px;
+    }
+  }
+  @media screen and (max-width: 702px) {
+    .container-fluid .nav-bottom .nav-link{
+      font-size: 13px;
+    }
+    .brand {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 635px) {
+    .container-fluid .nav-bottom .nav-link{
+      font-size: 11px;
+    }
+    .brand {
+      font-size: 11px;
+    }
+    .btn-primary{
+      margin-top: -4px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .btn-primary{
+      padding-left: 0;
+    }
+    .container-fluid .nav-bottom .container-fluid {
+      justify-content: flex-start;
+    }
+    .navbar .container-fluid{
+      display: flex;
+    }
+  }
+  @media screen and (max-width:635px) {
+    .nav-top .navbar-nav{
+      flex-direction: initial;
+    }
+    .form-inline{
+      flex-flow: initial;
+    }
+  }
+  @media screen and (max-width:775px) {
+    section{
+      margin-top: 140px;
+    }
+  }
+  @media screen and (max-width:575px) {
+    .banner-men.row{
+      margin-top: 10px;
+    }
+    .rounded{
+      display: none;
+    }
+    .col-sm-4{
+      width: 33.3%
+    }
+  }
