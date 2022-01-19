@@ -1,0 +1,19 @@
+.container-second-row video{
+    width : 80%;
+    height: auto;
+    margin: 20px auto;
+}    
+.brand-introduction{
+    width: 80%;
+    margin: 10px auto;
+
+}
+.brand-introduction h3{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.brand-introduction span{
+    font-family: 'Belleza', sans-serif;
+}

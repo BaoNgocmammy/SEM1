@@ -2,7 +2,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
-    --primary-color: #104A74;
+    --primary-color: #FCA311;
     --border-color: #dbdbdb;
 }
 
@@ -16,119 +16,13 @@ html {
     font-family: 'Roboto', sans-serif; 
     box-sizing: border-box;
 }
-/* authen modal */
-    .auth-form{
-        width: 500px;
-        background-color: var(--white-color);
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    .auth-form__container{
-        padding: 0 32px;
-        
-    }
-    .auth-form__header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 10px;
-        padding: 0; 
-    }
-    .auth-form__heading{
-        font-size: 2.2rem;
-        font-weight: 400;
-        color: var(--text-color);
-    }
-    .auth-form__switch-btn{
-        font-size: 1.6rem;
-        font-weight: 600;
-        color:var(--primary-color);
-        cursor: pointer;
-    }
-    
-    .auth-form__input{
-        width: 100%;
-        height: 40px;
-        margin-top: 16px;
-        padding: 0 12px;
-        font-size: 1.4rem;
-        border: 1px solid var(--border-color);
-        border-radius: 2px;
-        outline: none;
 
-
-    }
-    .auth-form__input:focus{
-        border-color: #777;
-    }
-    .auth-form__aside{
-        margin-top: 18px;
-    }
-    .auth-form_policy-text{
-        font-size: 1.2rem;
-        text-align: center;
-        padding: 0 12px;
-    }
-    .auth-form_text-link{
-        color: var(--primary-color);
-        text-decoration: none;
-    }
-    .auth-form__controls{
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 80px;
-    }
-    .auth-form__controls-back{
-        margin-right: 8px;
-        background-color: var(--border-color);
-        color: var(--text-color);
-    }
-    .auth-form__socials{
-        /* background-color: #F5F5F5; */
-        padding: 16px 20px;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 24px; 
-    }
-    .auth-form__socials-icon{
-        font-size: 1.8rem;
-        padding-left: 20px;
-    }
-    .auth-form__socials--facebook{
-        color: var(--white-color);
-        background-color: #3a5a98;
-    }
-    .auth-form__socials-facebook.auth-form__socials-icon{
-        color: var(--white-color);
-    }
-    .auth-form__socials-title{
-        margin: 0 36px;
-    }    
-    .auth-form__socials--google{
-        color: #666;
-        background-color: var(--border-color);
-    }
-    .auth-form__socials--google img{
-        max-width: 18px;
-    }
-    
-    .auth-form__help {
-        display: flex;
-        justify-content: flex-end;
-    }
-    .auth-form__help-link{
-        text-decoration: none;
-        font-size: 1.4rem;
-        color: var(--primary-color);
-    }
-    .auth-form__help-separate{
-        display:block;
-        height: 2px 16px 0;
-        margin: 0 16px;
-        border-left: 1px solid #eaeaea;
-    }
     .container__main{
         font-size: 1.6rem;
+        margin-top: 100px;
+    }
+    .row{
+        margin-top: 20px;
     }
     .CurrentPosition__Home{
         text-decoration: none;
@@ -136,7 +30,7 @@ html {
     }
     .CurrentPosition__Home:hover{
         text-decoration: none;
-        color:var(--text-color);
+        color:var(--primary-color);
     }
     .CurrentPosition{
         display: flex;
@@ -157,13 +51,18 @@ html {
         height:auto;
 
     }
+    .brand__banner-img{
+        width: 100%;
+        /* padding-top: px; */
+
+    }
     .brand__banner-logo{
-        font-size: 6rem;
+        font-size: 5rem;
         font-weight: 500;
         text-align: center;
         font-family: 'Merriweather', serif;
         background: linear-gradient(90deg, #FCA311, rgb(204, 204, 255));
-        padding: 2rem 0; 
+        padding: 1rem 0; 
     }
     
     .category__filter__box{
@@ -214,7 +113,6 @@ html {
         text-decoration: none;
         color: var(--text-color);
 
-
     }    
     .product__item__box__img img{
         width: 100%;
@@ -228,6 +126,7 @@ html {
         max-height:3.6rem;
         overflow: hidden;
         display: block;
+        text-align: center;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
     }
@@ -324,7 +223,7 @@ html {
         }
         
     }
-    @media (min-width: 768px) {   
+    @media (min-width: 769px) {   
         .category__content__products-FilterSortBy{
             margin-top: 10px;
         }
@@ -332,4 +231,16 @@ html {
             display: none;
         }
     }
+    @media (max-width: 748px) {
+        .container__main{
+            font-size: 1.4rem;
+            margin-top: 130px;
+        }
+    }    
+    @media (max-width: 376px) {
+        .container__main{
+            font-size: 1.3rem;
+            margin-top: 170px;
+        }
+    }   
     

@@ -2,7 +2,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
-    --primary-color: #104A74;
+    --primary-color: #FCA311;
     --border-color: #dbdbdb;
 }
 
@@ -86,7 +86,7 @@ body {
 .btn-default.btn--normal:hover {
     background-color: rgba(0, 0, 0, 0.2);
     text-decoration: none;
-    color:var(--text-color);
+    color:var(--white-color);
 }
 
 .btn-default.btn--primary{
