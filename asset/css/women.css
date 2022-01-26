@@ -1,0 +1,27 @@
+.women__subBanner1{
+    width: 80%;
+    margin: 30px auto;
+    
+}
+.women__subBanner-content1, .women__subBanner-content2{
+    margin: 0 auto;
+    font-family: 'Belleza', sans-serif;
+
+}
+.women__subBanner-img1, .women__subBanner-img2{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.container-first-row video{
+    width : 80%;
+    height: auto;
+    margin: 20px auto;
+}  
+/* @media (max-width: 576px) {
+    .container-second-row{
+        display: none;
+    }
+} */

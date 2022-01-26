@@ -1,6 +1,9 @@
 .container-second-row{
     font-family: 'Belleza', sans-serif;
 }
+.brand__banner-img{
+    padding-top: 20px;
+}
 .men__subBanner-content1{
     display: flex;
     align-items: center;
@@ -24,8 +27,8 @@
     align-items: center;
     justify-content: center;
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .container-second-row{
         display: none;
     }
-}
+} */

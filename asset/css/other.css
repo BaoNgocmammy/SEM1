@@ -7,19 +7,9 @@
     --border-color: #dbdbdb;
 }
 
-* {
-    box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-    line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif; 
-    box-sizing: border-box;
-}
 
     .container__main.container.wrapper{
-        margin-top: 100px;
+        margin-top: 120px;
     }
     .container__app__signUp-login{
         display: flex;
@@ -50,16 +40,19 @@ html {
         justify-content: space-between;
         padding: 0; 
     }
+    .auth-form__header a:hover{
+        text-decoration: none;
+    }
     .auth-form__heading{
         font-family: 'Cormorant Garamond', serif;
         text-align: center;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 30px;
         color: var(--text-color)
         }                   
       
     .auth-form__switch-btn{
-        font-size: 1.8rem;
+        font-size: 18px;
         font-weight: 600;
         color:var(--primary-color);
         cursor: pointer;
@@ -70,7 +63,7 @@ html {
         height: 40px;
         margin-top: 16px;
         padding: 0 12px;
-        font-size: 1.4rem;
+        font-size: 14px;
         border: 1px solid var(--border-color);
         border-radius: 2px;
         outline: none;
@@ -84,7 +77,7 @@ html {
         margin-top: 18px;
     }
     .auth-form_policy-text{
-        font-size: 1.2rem;
+        font-size: 12px;
         text-align: center;
         padding: 0 12px;
     }
@@ -109,7 +102,7 @@ html {
         margin-top: 24px; 
     }
     .auth-form__socials-icon{
-        font-size: 1.8rem;
+        font-size: 18px;
         padding-left: 20px;
     }
     .auth-form__socials--facebook{
@@ -133,7 +126,7 @@ html {
     }
     .auth-form__help-link{
         text-decoration: none;
-        font-size: 1.4rem;
+        font-size: 14px;
         color: var(--primary-color);
     }
     .auth-form__help-separate{
@@ -146,16 +139,21 @@ html {
         color: red;
         font-size: 14px;
     }
+    
 @media (max-width: 997px){
     .auth-form__img img{
         width:300px;
         height: 100%;
     }
 }    
-
+@media (max-width: 830px){
+    .container__main.container.wrapper{
+        margin-top: 180px;
+    }
+}
 @media (max-width: 768px){
     .container__main.container.wrapper{
-        margin-top: 150px;
+        margin-top: 180px;
     }
     .auth-form{
         width: 400px;
@@ -168,13 +166,13 @@ html {
 }
 @media (max-width: 396px) {
     .container__main.container.wrapper{
-        margin-top: 170px;
+        margin-top: 150px;
     }
     .auth-form{
         width: 300px;
     }
     .auth-form__socials.btn-default{
-        font-size: 1.3rem;
+        font-size: 13px;
         padding: 10px 10px;
         display: flex;
         justify-content: space-between;
@@ -186,7 +184,7 @@ html {
         margin-top: 20px;
     }
     .auth-form__socials-icon{
-        font-size: 1.2rem;
+        font-size: 12px;
         padding-left: 10px;
     }
     .auth-form__socials-title{

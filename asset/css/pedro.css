@@ -8,12 +8,12 @@
     margin: 10px auto;
 
 }
-.brand-introduction h3{
+.brand-introduction--title {
     font-family: 'Cormorant Infant', serif;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 35px;
     text-align: center;
 }
-.brand-introduction span{
+.brand-introduction--content{
     font-family: 'Belleza', sans-serif;
 }

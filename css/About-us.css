@@ -1,0 +1,153 @@
+section{
+    margin-top: 110px;
+  }
+  .about-us .background-top{
+          background-image: url();
+  }
+  .CurrentPosition{
+          padding: 10px 0px 0px 30px;
+  }
+  .CurrentPosition__Home{
+    text-decoration: none;
+    color: #333;
+}
+.CurrentPosition__Home:hover{
+    text-decoration: none;
+    color: #FCA311;
+}
+.CurrentPosition{
+    display: flex;
+    color:  #333;
+}
+.CurrentPosition-separate{
+    display:block;
+    height: 2px 16px 0;
+    margin: 0 16px;
+    border-left: 1px solid #eaeaea;
+}
+.CurrentPosition__Page{
+    font-weight: 500;
+    color: #000;
+}
+  .slogan-banner{
+          padding: 20px 30px;
+          margin-top: 30px;
+    }
+  section .about-us .slogan img{
+          width: 100%;
+          box-shadow: 10px 5px 5px #aaaa
+
+  }
+  .story .row{
+          margin: 50px 0;
+          padding: 40px 20px;
+          border-radius: 20px;
+          box-shadow: 10px 10px 10px 10px gray;
+  }
+  .story-tittle{
+          text-align: center;
+          margin: 40px 0;
+  }
+  .story .container .row .col-md-5 img{
+          width: 100%;
+          border-radius: 10px;
+  }
+  .story .container .col-md-7 p{
+    font-size: 19px;
+    font-family: 'Belleza', sans-serif;
+  }
+  .why-choose{
+          margin-top: 50px;
+  }
+  .why-choose .row{
+    margin: 50px 0;
+  }
+  .why-choose img{
+          width: 100%;
+  }
+  .why-choose p{
+          font-size: 20px;
+          font-family: 'Belleza', sans-serif;
+  }
+  .why-choose h2{
+          text-align: center;
+  }
+  .pro-team .row .col-md-5{
+          text-align: center;
+  }
+  section .team{
+          text-align: center;
+          background-color: #f5b54e;
+  }
+  section .team h1{
+          margin: 0;
+          padding: 30px 0;
+  }
+  section .member .row{
+          margin:0;
+  }
+  section .member .row .col-md-4 img{
+          border-radius: 50%;
+          width: 70%;
+          margin: 30px 10px;
+  }
+  section .row .col-md-4 .infor{
+          margin-left: 30%;
+          font-size: 20px;
+  }
+  section .row .col-md-4 .avatar{
+          text-align: center;
+  }
+  section .member .row .col-md-4{
+          background-color: #f5b54e;
+  }
+  section .member .row .col-md-2{
+    background-color: #f5b54e;
+  }
+@media screen and (max-width:1226px) {
+    section .slogan-banner .slogan h4{
+            font-size: 45px;
+    }
+    
+}
+@media screen and (max-width:1199px) {
+    .about-us .story .col-md-7 p{
+            font-size: 16px;
+    }         
+    
+}
+@media screen and (max-width:1226px) {
+    section .slogan-banner .slogan h4{
+            font-size: 38px;
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .about-us .story .col-md-7 p{
+            font-size: 11px;
+    }         
+    .why-choose p{
+            font-size: 15px;
+    }
+    section .slogan-banner .slogan h4{
+            font-size: 30px;
+    }
+    section .slogan-banner ion-icon{
+            font-size: 60px;
+    }
+}
+@media screen and (max-width:830px) {
+    section{
+            margin-top: 147.5px;
+    }
+}
+@media screen and (max-width:767px) {
+    .about-us .story .col-md-7 p{
+            font-size: 20px;
+            margin-top: 10px;
+    }         
+    .why-choose p{
+            margin-top: 10px;
+            font-size: 20px;
+    }
+}

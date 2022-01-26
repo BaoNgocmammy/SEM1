@@ -1,55 +1,8 @@
-.bg-dark{
-  background-color:#f5b54e!important; 
-  padding-top: 3px;
-  padding-bottom: 3px;
-  
-}
-.navbar-expand-sm .container-fluid{
-  flex-wrap: wrap;
-}
-.container-fluid{
-  padding:0;
-  margin: 0;
-} 
-.nav-item .nav-link button{
-  border: 1px solid rgb(0, 0, 0);
-  margin-right: -5px;
-  color: rgb(0, 0, 0);
-  padding: 5px 10px;
-  font-size: 13px;
-}
-.form-inline .form-control{
-  height: 32px;
-  width: 150px;
-  font-size: 1.6rem
-}
-/* .nav-top .navbar-brand a{
-  display: inline-block;
-  width: 100%;
-} */
-.container-fluid .nav-top .navbar-brand{
-  font-family: 'Righteous', cursive;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  display: inline;
-}
-.container-fluid .nav-top .navbar-brand img{
-  width: 10%;
-}
-.container-fluid .nav-bottom .nav-link:hover{
-  background-color: #000000!important;
-  color: rgb(255, 255, 255);
-  border-radius: 3px;
-}
-.navbar-light .navbar-nav .nav-link{
-  color: rgb(0, 0, 0);
-}
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
+/* 
+
 .dropdown .dropdown-menu a{
   color: black;
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 .btn-primary{
   background-color: #f5b54e;
@@ -57,99 +10,7 @@
   color: black;
   font-size: 16px;
 }
-.dropdown .dropdown-menu a:hover{
-  background-color: black;
-  color: white;
-}
-.dropdown .btn-primary:hover{
-  background-color: black;
-}
-.navbar-nav .dropdown-menu{
-  position: absolute;
-}
-.dropdown>.dropdown-toggle:active {
-    pointer-events: none;
-}
-.dropdown-menu{
-  background-color: #f5b54e!important; 
-}
 
-.container-fluid .nav-bottom .container-fluid {
-  justify-content: center;
-}
-.icon1{
-  font-size: 24px;
-}
-.follow{
-  font-size: 17px;
-}
 .container-fluid .nav-bottom .nav-link{
   font-size: 1.6rem;
-}
-.btn-success{
-  background-color: #4c4c4c;
-}
-.navbar-toggler-icon{
-  font-size: 10px;
-}
-@media screen and (max-width: 830px) {
-  .form-inline .form-control{
-    height: 32px;
-    width: 230px;
-  }
-}
-@media screen and (max-width: 702px) {
-  .container-fluid .nav-bottom .nav-link{
-    font-size: 13px;
-  }
-  .brand {
-    font-size: 13px;
-  }
-  .form-inline .form-control{
-    height: 32px;
-    width: 150px;
-  }
-}
-@media screen and (max-width: 635px) {
-  .container-fluid .nav-bottom .nav-link{
-    font-size: 11px;
-  }
-  .brand {
-    font-size: 11px;
-  }
-  .btn-primary{
-    margin-top: -4px;
-  }
-  .icon1{
-    margin-left: 10px;
-  }
-  .nav-item .nav-link button{
-    margin-right: 10px;
-  }
-  .nav-top .navbar-nav{
-    flex-direction: initial;
-  }
-  .form-inline{
-    flex-flow: initial;
-  }
-}
-@media screen and (max-width: 575px) {
-  .btn-primary{
-    padding-left: 0;
-  }
-  .container-fluid .nav-bottom .container-fluid {
-    justify-content: flex-start;
-  }
-  .navbar .container-fluid{
-    display: flex;
-  }
-  footer .col-sm-6 .footer-right{
-    margin-top: 30px;
-  }
-  footer .col-sm-6 h3{
-    font-size: 20px;  
-  }
-  footer .col-sm-6 .footer-left{
-    margin-left: 35px;
-  }
-}
+} */
