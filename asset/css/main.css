@@ -121,14 +121,17 @@ html {
     .product__item__box__name{
         font-size: 15px;
         color: var(--text-color);
-        margin: 5px 0;
-        line-height:18px;
-        max-height:36px;
-        overflow: hidden;
-        display: block;
+        margin: 5px;
+        line-height: 18px;
         text-align: center;
+        white-space: nowrap;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
+        overflow: hidden;
+        display: block;
+        max-height:18px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
     .product__item__box__price{
         font-size: 15px;

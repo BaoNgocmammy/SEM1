@@ -154,8 +154,9 @@ section .also-like h1{
 .thumbnail{
     text-align: center;
     margin-top: 15px;
-    padding: 15px 0;
     box-shadow:rgb(187 185 185) -10px -7px 29px 10px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif; 
     -webkit-transition: 0.5s ease;
         -moz-transition: 0.5s ease;
         -o-transition: 0.5s ease;
@@ -169,9 +170,24 @@ section .also-like h1{
      z-index: 1;
   }
   .thumbnail a{
-    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: rgb(114, 76, 76);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    color: #333;
+   
+  }
+  .product__item__box__name{
+    margin: 5px;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    display: block;
+    max-height:18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e")
@@ -195,14 +211,8 @@ section .also-like h1{
   }
 .products .thumbnail{
     text-align: center;
-    /* background: rgb(143, 138, 136); */
   }
-.thumbnail a{
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-family: 'Orelega One', cursive;
-  }
+  
 .thumbnail .p-info{
       margin-top: 15px;
   }

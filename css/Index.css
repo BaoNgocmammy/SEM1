@@ -108,9 +108,24 @@ color: #000;
      z-index: 1;
   }
   .thumbnail a{
-    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    color: rgb(114, 76, 76);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+  }
+  .product__item__box__name{
+    margin: 5px;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    display: block;
+    max-height:18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   @media screen and (max-width:619px) {
     .carousel-caption h3{
