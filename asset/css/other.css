@@ -9,7 +9,7 @@
 
 
     .container__main.container.wrapper{
-        margin-top: 120px;
+        margin-top: 130px;
     }
     .container__app__signUp-login{
         display: flex;
@@ -141,6 +141,9 @@
     }
     
 @media (max-width: 997px){
+    .container__main.container.wrapper{
+        margin-top: 150px;
+    }
     .auth-form__img img{
         width:300px;
         height: 100%;

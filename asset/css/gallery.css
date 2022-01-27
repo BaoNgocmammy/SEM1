@@ -1,6 +1,12 @@
 .container-first-row{
     margin-top: 20px;
 }
+.container-first-row.brand__banner img{
+    width: 100%;
+    height:auto;
+    margin: 10px 0;
+
+}
 .gallery__item{
     padding: 15px 0;
     background-color: white;
