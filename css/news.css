@@ -355,3 +355,20 @@ color: #000;
         margin-top: 130px;
     }
 }
+@media screen and (max-width:413px) {
+    .news .news-top #news-top1 #content-news-top1{
+        font-size: 30px;
+        
+    }
+    .news .news-top #news-top1 #content-news-top2{
+        font-size: 15px;
+    
+    }
+    .news .news-top #content-news-top5{
+        font-size: 30px;
+        
+    }
+    .news .news-top #content-news-top6{
+        font-size: 15px;
+    }
+}
