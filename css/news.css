@@ -268,7 +268,7 @@ color: #000;
      }
      .news .more-news .col-md-7 .col-md-10 p{
          color: black;
-         font-size: 9px;
+         font-size: 14px;
     }
     .news .news-hot h6{
         font-size: 14px;
@@ -283,6 +283,7 @@ color: #000;
     }
 }
 @media screen and (max-width:767px) {
+   
     .news .news-hot .col-xs-12{
         width: 100%;
     }
@@ -296,29 +297,29 @@ color: #000;
         display: contents;
     }
     .news .news-top #news-top1 #content-news-top1{
-        font-size: 40px;
+        font-size: 25px;
         color: black;
     }
     .news .news-top #news-top1 #content-news-top2{
-        font-size: 22px;
+        font-size: 18px;
         color: black;
     }
     .news .news-top #content-news-top5{
-        font-size: 40px;
+        font-size: 25px;
         color: black;
     }
     .news .news-top #content-news-top6{
-        font-size: 22px;
+        font-size: 18px;
         color: black;
     }
     .news .more-news .col-md-7 .col-md-10 h5{
         color: black;
-        font-size: 40px;
+        font-size: 25px;
 
      }
      .news .more-news .col-md-7 .col-md-10 p{
          color: black;
-         font-size: 22px;
+         font-size: 18px;
     }
     .more-news .row{ 
         display: contents;
@@ -327,27 +328,27 @@ color: #000;
         display: flex;
     }
     .news .news-hot h6{
-        font-size: 11px;
+        font-size: 24px;
     }
     .news .news-hot p{
-        font-size: 10px;
+        font-size: 18px;
     }
 }
 @media screen and (max-width:515px) {
     .news .news-top #news-top1 #content-news-top1{
-        font-size: 37px;
+        font-size: 22px;
         
     }
     .news .news-top #news-top1 #content-news-top2{
-        font-size: 20px;
+        font-size: 16px;
     
     }
     .news .news-top #content-news-top5{
-        font-size: 35px;
+        font-size: 22px;
         
     }
     .news .news-top #content-news-top6{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 @media screen and (max-width:580px) {
@@ -355,6 +356,7 @@ color: #000;
         margin-top: 130px;
     }
 }
+
 @media screen and (max-width:413px) {
     .news .news-top #news-top1 #content-news-top1{
         font-size: 30px;
