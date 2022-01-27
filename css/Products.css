@@ -52,14 +52,17 @@ section .products .product .col-md-4{
     margin-top: 30px;
 }
 section .products .product .col-md-4 .p-name p{
-   font-size: 20px;
+   font-size: 22px;
    color: #333;
    font-weight: 600;
    font-family: 'Roboto', sans-serif;
 }
 section .products .product .col-md-4 .p-price p{
-    font-size: 20px;
-    font-family: 'Orelega One', cursive;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+   font-weight: 600;
+
+
  }
 .p-size input[type=radio]{
     margin-right: 10px;
@@ -85,6 +88,7 @@ textarea{
 }
 .feedback{
     margin-top: 35px;
+    font-weight: 600;
 }
 .feedback .form .btn {
     width: 10%;
@@ -275,6 +279,17 @@ section .also-like h1{
     section .products .comment .comment-user img{
         width: 10%;
     }
+    section .products .product .col-md-4 .p-name p{
+        font-size: 18px;
+        
+     }
+     section .products .product .col-md-4 .p-price p{
+         font-size: 18px;
+      }
+      .also-like h1{
+         font-size: 25px;
+      }
+
 }
 @media screen and (max-width:649px) {
     section .product .row .col-md-8 img{
@@ -288,9 +303,17 @@ section .also-like h1{
     .feedback .form .btn {
         width: 30%;
     }
+    section .products .product .col-md-4 .p-name p{
+        font-size: 16px;
+        
+     }
+     section .products .product .col-md-4 .p-price p{
+         font-size: 16px;
 }
-
-
+    .also-like h1{
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 575px){
     .rounded {
         display: block;
